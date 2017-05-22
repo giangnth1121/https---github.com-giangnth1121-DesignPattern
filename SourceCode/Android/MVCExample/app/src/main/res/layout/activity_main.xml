@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    tools:context="com.example.tuanjio.mvcexample.MainActivity"
+    >
+
+    <Button
+        android:id="@+id/btn_mvc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVC Pattern Example"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_mvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVP Pattern Example"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_mvvm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVVM Pattern Example"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_viper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Viper Pattern Example"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

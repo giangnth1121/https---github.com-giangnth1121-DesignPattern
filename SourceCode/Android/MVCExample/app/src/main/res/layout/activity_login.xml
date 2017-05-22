@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Kiến trúc MVP"
+        android:textColor="@color/red"
+        android:textSize="@dimen/_12sdp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:scaleType="center"
+        android:src="@drawable/top"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_8sdp"
+        android:weightSum="10"
+        >
+
+        <TextView
+            style="@style/TextNormal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Tài khoản:"
+            />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="text"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_8sdp"
+        android:weightSum="10"
+        >
+
+        <TextView
+            style="@style/TextNormal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Mật khẩu:"
+            />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:text="Đăng Nhập"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>
